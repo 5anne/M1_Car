@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.hero {
+    background-image: url('../Images/Car-Station-Home-page-hero-2_result.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 99% 86%, 48% 100%, 49% 100%, 0 88%);
+}
+
+.hero h1 {
+    color: grey;
+    font-size: 70px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding-top: 60px;
+}
+
+.article,
+#cars {
+    width: 80%;
+    margin: 50px auto;
+    background-color: bisque;
+    border-width: 10px;
+    border-color: grey;
+    border-style: groove;
+    padding: 50px;
+}
+
+.article h2,
+#cars h2 {
+    text-align: center;
+}
+
+.article p {
+    /* line-height: 2rem; */
+}
+
+.article p .imp {
+    /* font-size: larger; */
+    font-weight: lighter;
+}
+
+#cars {
+    background: linear-gradient(180deg, gray, azure);
+}
+
+.car-images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 1px gray dashed;
+    padding: 10px;
+}
